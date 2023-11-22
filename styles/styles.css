@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    background-image: url(../images/achtergrond-startpagina.jpg);
+    /* Photo by Kelly Sikkema on Unsplash */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.start {
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.start_hidden {
+    visibility: hidden;
+    display: none;
+}
+
+.spel {
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    display: none;
+}
+
+.spel_show {
+    visibility: visible;
+    display: block;
+    width: auto;
+    height: auto;
+
+}
+
+.delfstoffer {
+    width: 55%;
+    position: fixed;
+    left: 7vw;
+    top: 8vh;
+}
+
+.button-delfstoffer {
+    position: absolute;
+}
+
+.button-delfstoffer img {
+    width: 30px;
+    height: 45px;
+}
+
+.position {
+    position: relative;
+    text-align: center;
+}
+
+.form {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 8px;
+    position: absolute;
+    left: 25%;
+    bottom: 20%;
+    display: none;
+}
+
+.submit {
+    background-color: pink;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.munt {
+    width: 20%;
+    padding: 10px;
+    position: fixed;
+    right: 17vw;
+    top: 12vh;
+    margin: 1em;
+}
+
+.steen {
+    width: 24%;
+    padding: 10px;
+    position: fixed;
+    right: 12vw;
+    bottom: 8vh;
+}
+
+.meter {
+    height: 40px;
+    width: 80%;
+    position: fixed;
+    bottom: 2vh;
+    background: #FEF5DA;
+    border-radius: 25px;
+    padding: 8px;
+    margin-left: 50px;
+}
+
+.meter img {
+    position: absolute;
+    left: 4px;
+    height: 30px;
+    padding-right: 2px;
+
+}
+
+.meter>span {
+    display: block;
+    height: 100%;
+    width: 50%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: pink;
+
+}
+
+.welkomsgroet {
+    background-image: url(../images/tekstballon.png);
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 580px;
+    background-size: cover;
+    margin: 2px;
+    position: fixed;
+    top: 1vh;
+    left: 2vw;
+
+}
+
+.welkomsgroet p {
+    position: relative;
+    text-align: center;
+    padding-top: 2em;
+    font-family: "Verdana", cursive;
+    font-size: 20px;
+    width: auto;
+}
+
+.easterEgg {
+    content: url("../javascript/easter-egg.gif");
+
+}
